@@ -1,0 +1,80 @@
+.test{
+    color: brown;
+}
+/* селектор по классу */
+.test{
+    color: brown;
+}
+.test{
+    color: brown;
+}
+h1{
+    color: brown;
+    font-family: 'Roboto Mono', monospace;
+}
+/* селектор по типу элемента */
+#my-id{
+    font-size: large;
+}
+/* селектор по идентификатору */
+ul > li{
+    font-weight: 800;
+    list-style-type: circle;
+}
+/* селектор потомков */
+nav > ol{
+    background-color: white;
+    border-radius: 200px;
+    color: rgb(174, 46, 46);
+    width: 300px;
+}
+/* селектор дочерних элементов */
+a{
+    color: blue;
+}
+a:hover{
+    color: blueviolet;
+}
+/* селектор псевдоклассов */
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+h2 + p{
+    font-weight: bold;
+    color: blue;
+    font-size: larger;
+}
+.kubic{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(70, 70, 188);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.corzina{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(207, 203, 199);
+    border-radius: 20px;
+    margin-top: 4%;
+    padding-top: 1%;
+    padding-left: 4%;
+
+}
+.content-container{
+    background-color: rgb(128, 124, 124);
+    border-radius: 2%;
+    padding: 5% 1%;
+    margin-top: 3%;
+
+}
+.section{
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 1%; 
+}
